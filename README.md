@@ -61,7 +61,4 @@ A simple web-based employee time clock application built with React.
      exit 0
    fi
    
-   rm -rf 'employee-time-clock/'
-   git clone https://github.com/judahpaul16/employee-time-clock.git
-   cd employee-time-clock
-   npm i && npm rebuild bcrypt --build-from-source && npm run build && mkdir ./tmp && touch ./tmp/restart.txt
+ 
