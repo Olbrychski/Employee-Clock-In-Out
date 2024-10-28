@@ -39,26 +39,6 @@ A simple web-based employee time clock application built with React.
 <!-- screenshot -->
 ![Screenshot](screenshot.png)
 
-## Example reclone script for production (Linux + Phusion Passenger)
 
-   ```bash
-   #!/bin/bash
-
-   # Print the warning message
-   echo ""
-   echo "This script will reset the employee time clock database."
-   
-   # Prompt the user for confirmation
-   read -p "Are you sure you want to continue? (y/n): " response
-   
-   # Check if the response is 'y' or 'Y'
-   if [[ "$response" == "y" || "$response" == "Y" ]]; then
-     echo "Recloning..."
-     echo ""
-   else
-     echo "Operation canceled."
-     echo ""
-     exit 0
-   fi
    
  
